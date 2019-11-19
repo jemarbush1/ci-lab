@@ -2,7 +2,7 @@
 node {
   stage('checkout sources') {
         // You should change this to be the appropriate thing
-        git url: 'https://github.com/jemarbush1/ci-lab.git'
+        git url: 'https://github.com/jemarbush1/ci-lab'
   }
 
   stage('Build') {
